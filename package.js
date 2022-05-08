@@ -14,7 +14,7 @@ Package.onUse(function (api) {
   api.use('check');
   api.use('coffeescript');
   api.use('underscore');
-  api.use('accounts-password@1.3.3');
+  api.use('accounts-password@2.0.0');
   api.use('simple:json-routes@2.1.0');
 
   api.addFiles('lib/auth.coffee', 'server');
@@ -36,7 +36,7 @@ Package.onTest(function (api) {
   api.use('coffeescript');
   api.use('underscore');
   api.use('accounts-base');
-  api.use('accounts-password');
+  api.use('accounts-password@2.0.0');
   api.use('mongo');
 
   api.addFiles('lib/route.coffee', 'server');
